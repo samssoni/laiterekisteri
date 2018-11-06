@@ -1,0 +1,23 @@
+{
+  "name": "simpleapi",
+  "version": "1.0.0",
+  "description": "Testi softa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "handlebars": "^4.0.12",
+    "mongoose": "^5.2.17",
+    "mysql": "^2.16.0"
+  }
+}
